@@ -1,3 +1,7 @@
+layout: page
+title: "Lab4"
+permalink: https://ManaSnail.github.io/about/Lab4
+
 TryHackMe Tutorial: 
 
 My first step was to hit “deploy machine” and start the attack box to open up the side panel. I then opened the firefox browser and pasted in the provided IP address into the search bar. Once there, I found the flag “flag{connection_verified}” and entered it into the answer box. 
