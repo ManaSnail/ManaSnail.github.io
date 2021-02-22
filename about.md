@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I know this isnt where the info is supposed to go but i've messed up my page and I need to submit this
+TryHackMe Tutorial: 
 
-### More Information
+My first step was to hit “deploy machine” and start the attack box to open up the side panel. I then opened the firefox browser and pasted in the provided IP address into the search bar. Once there, I found the flag “flag{connection_verified}” and entered it into the answer box. 
 
-A place to include any other types of information that you'd like to include about yourself.
+ 
 
-### Contact me
+TryHackMe OpenVPN:  
 
-[email@domain.com](mailto:email@domain.com)
+I downloaded the program and file from the access page it recommended that I download. Setting up the VPN, I followed the instructions to right click and import the file with my name. After importing the file, I hit connect and it popped up after a few seconds saying it was connected. It instructed me to type in the IP address and the flag was “flag{connection_verified}” 
